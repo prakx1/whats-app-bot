@@ -15,7 +15,7 @@ def sms_reply():
 
     # Create reply
     resp = MessagingResponse()
-    resp.message("echoing: {}".format(msg))
+    resp.message("eching: {}".format(msg))
 
     return str(resp)
 
